@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  
+    line-height: 0px;
+  }
+
+body{
+    background-color: black;
+}
+
+  .terreno{
+      z-index: -1;
+      margin: 0px;
+  }
+  .terrenoTile{
+
+    z-index: -1;
+    float: left;
+    margin: 0px;
+  }
+
+  #gameArea{
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+
+    transform: translate(-50%, -50%); 
+    width: 960px;
+    height: 640px;
+    background-color: red;
+  }
+
+  .player{
+
+    position: absolute;
+    top: 320px;  
+    left: 480px; 
+    width: 32px;
+    height: 32px;
+    z-index: 1;
+    
+  }
+
+  .proiettile{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    z-index: 0;
+
+  }
+
+  .enemy{
+    position: absolute;
+    top: 320px;  
+    left: 480px; 
+    width: 32px;
+    height: 32px;
+    z-index: 1;
+  }
+
+  .obstacleTop{
+    position: absolute;
+    top: 0px;
+    left: 0pX;
+    width: 20px;
+    height: 100px;
+    background-color: red;
+    z-index: 0;
+  }
+
+  .obstacleBottom{
+    position: absolute;
+    bottom: 0px;
+    left: 0pX;
+    width: 20px;
+    height: 100px;
+    background-color: red;
+    z-index: 0;
+  }
